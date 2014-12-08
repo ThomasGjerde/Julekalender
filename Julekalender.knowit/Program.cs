@@ -11,7 +11,7 @@ namespace Julekalender.knowit
     {
         static void Main(string[] args)
         {
-            Luke8.Run();
+            Luke5.Run();
             Console.Read();
         }
     }
