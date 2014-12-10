@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 using System.Text;
+using System.Diagnostics;
 
 
 namespace Julekalender.knowit
@@ -11,7 +12,12 @@ namespace Julekalender.knowit
     {
         static void Main(string[] args)
         {
-            Luke5.Run();
+            Stopwatch timer = Stopwatch.StartNew();
+
+            Luke9.Run();
+            
+            timer.Stop();
+            Console.WriteLine("Run time: " + timer.ElapsedMilliseconds + "ms");
             Console.Read();
         }
     }
