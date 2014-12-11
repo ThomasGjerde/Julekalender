@@ -14,10 +14,17 @@ namespace Julekalender.knowit
         {
             Stopwatch timer = Stopwatch.StartNew();
 
-            Luke9.Run();
+            Luke10.Run();
             
             timer.Stop();
-            Console.WriteLine("Run time: " + timer.ElapsedMilliseconds + "ms");
+            if (timer.ElapsedMilliseconds > 0)
+            {
+                Console.WriteLine("Run time: " + timer.ElapsedMilliseconds + "ms");
+            }
+            else
+            {
+                Console.WriteLine("Run time: " + ((double)timer.ElapsedTicks / (double)10000) + "ms");
+            }
             Console.Read();
         }
     }

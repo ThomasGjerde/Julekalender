@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Luke1.cs" />
+    <Compile Include="Luke10.cs" />
     <Compile Include="Luke2.cs" />
     <Compile Include="Luke3.cs" />
     <Compile Include="Luke4.cs" />
