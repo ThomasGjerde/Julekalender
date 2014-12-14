@@ -48,6 +48,7 @@
     <Compile Include="Luke10.cs" />
     <Compile Include="Luke11.cs" />
     <Compile Include="Luke12.cs" />
+    <Compile Include="Luke13.cs" />
     <Compile Include="Luke2.cs" />
     <Compile Include="Luke3.cs" />
     <Compile Include="Luke4.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="Luke9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
