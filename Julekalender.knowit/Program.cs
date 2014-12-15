@@ -14,7 +14,7 @@ namespace Julekalender.knowit
         {
             Stopwatch timer = Stopwatch.StartNew();
 
-            Luke13.Run();
+            Luke14.Run();
             
             timer.Stop();
             if (timer.ElapsedMilliseconds > 0)
